@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Layers, Clock, Sparkles, FolderDown, CheckCircle2 } from 'lucide-react';
-import { CURRICULUM_DATA, Module } from '../../data/curriculum.ts';
-import { GlassCard } from '../ui/GlassCard.tsx';
+import { CURRICULUM_DATA, Module } from '../../data/curriculum';
+import { GlassCard } from '../ui/GlassCard';
 
 export const Curriculum: React.FC = () => {
   const [expandedModuleId, setExpandedModuleId] = useState<string>('module-1');

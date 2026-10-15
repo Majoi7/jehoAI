@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X, CheckCircle, ShieldCheck, CreditCard, Smartphone, Sparkles, ArrowRight } from 'lucide-react';
-import { CurrencyCode, convertPrice } from '../../utils/pricing.ts';
-import { Button } from './Button.tsx';
+import { CurrencyCode, convertPrice } from '../../utils/pricing';
+import { Button } from './Button';
 
 interface CheckoutModalProps {
   isOpen: boolean;

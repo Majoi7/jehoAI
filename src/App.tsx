@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import Lenis from 'lenis';
-import { Navbar } from './components/layout/Navbar.tsx';
-import { Footer } from './components/layout/Footer.tsx';
-import { Hero } from './components/sections/Hero.tsx';
-import { VideoShowcase } from './components/sections/VideoShowcase.tsx';
-import { Manifesto } from './components/sections/Manifesto.tsx';
-import { Skills } from './components/sections/Skills.tsx';
-import { Curriculum } from './components/sections/Curriculum.tsx';
-import { Testimonials } from './components/sections/Testimonials.tsx';
-import { Pricing } from './components/sections/Pricing.tsx';
-import { Faq } from './components/sections/Faq.tsx';
-import { CheckoutModal } from './components/ui/CheckoutModal.tsx';
-import { useGeoCurrency } from './hooks/useGeoCurrency.ts';
+import { Navbar } from './components/layout/Navbar';
+import { Footer } from './components/layout/Footer';
+import { Hero } from './components/sections/Hero';
+import { VideoShowcase } from './components/sections/VideoShowcase';
+import { Manifesto } from './components/sections/Manifesto';
+import { Skills } from './components/sections/Skills';
+import { Curriculum } from './components/sections/Curriculum';
+import { Testimonials } from './components/sections/Testimonials';
+import { Pricing } from './components/sections/Pricing';
+import { Faq } from './components/sections/Faq';
+import { CheckoutModal } from './components/ui/CheckoutModal';
+import { useGeoCurrency } from './hooks/useGeoCurrency';
 
 export default function App() {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);

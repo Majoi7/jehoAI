@@ -1,7 +1,7 @@
 import React from 'react';
 import { Star, ShieldCheck } from 'lucide-react';
-import { TESTIMONIALS_ROW_1, TESTIMONIALS_ROW_2, Testimonial } from '../../data/testimonials.ts';
-import { GlassCard } from '../ui/GlassCard.tsx';
+import { TESTIMONIALS_ROW_1, TESTIMONIALS_ROW_2, Testimonial } from '../../data/testimonials';
+import { GlassCard } from '../ui/GlassCard';
 
 const TestimonialCard: React.FC<{ item: Testimonial }> = ({ item }) => {
   return (

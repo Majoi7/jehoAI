@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { calculateTimeRemaining } from '../utils/pricing.ts';
+import { calculateTimeRemaining } from '../utils/pricing';
 
 /**
  * Hook providing live countdown timer until a specified target date

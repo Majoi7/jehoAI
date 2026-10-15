@@ -1,9 +1,9 @@
 import React from 'react';
 import { ArrowRight, Play, Star, Sparkles, Layers, Video, Infinity, CheckCircle2 } from 'lucide-react';
-import { Button } from '../ui/Button.tsx';
-import { DotGrid } from '../ui/DotGrid.tsx';
-import { useMousePosition } from '../../hooks/useMousePosition.ts';
-import { CurrencyCode, convertPrice } from '../../utils/pricing.ts';
+import { Button } from '../ui/Button';
+import { DotGrid } from '../ui/DotGrid';
+import { useMousePosition } from '../../hooks/useMousePosition';
+import { CurrencyCode, convertPrice } from '../../utils/pricing';
 import instructorPhoto from '../../assets/images/instructor_portrait_1792078629331.jpg';
 
 interface HeroProps {

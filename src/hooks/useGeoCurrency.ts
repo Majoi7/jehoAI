@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { CurrencyCode, convertPrice, SUPPORTED_CURRENCIES } from '../utils/pricing.ts';
+import { CurrencyCode, convertPrice, SUPPORTED_CURRENCIES } from '../utils/pricing';
 
 export function useGeoCurrency() {
   const [currency, setCurrency] = useState<CurrencyCode>(() => {

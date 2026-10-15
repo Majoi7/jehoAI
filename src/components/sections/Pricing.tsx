@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Check, ShieldCheck, Clock, Sparkles, Smartphone, CreditCard, Gift, ArrowRight } from 'lucide-react';
-import { CurrencyCode, SUPPORTED_CURRENCIES } from '../../utils/pricing.ts';
-import { MAIN_PRICING_PLAN } from '../../data/pricing.ts';
-import { BorderBeam } from '../ui/BorderBeam.tsx';
-import { Button } from '../ui/Button.tsx';
-import { useCountdown } from '../../hooks/useCountdown.ts';
+import { CurrencyCode, SUPPORTED_CURRENCIES } from '../../utils/pricing';
+import { MAIN_PRICING_PLAN } from '../../data/pricing';
+import { BorderBeam } from '../ui/BorderBeam';
+import { Button } from '../ui/Button';
+import { useCountdown } from '../../hooks/useCountdown';
 
 interface PricingProps {
   onOpenCheckout: () => void;

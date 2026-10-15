@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Sparkles, ArrowRight, Video, Monitor, Type, Move, Smartphone, Briefcase } from 'lucide-react';
-import { GlassCard } from '../ui/GlassCard.tsx';
+import { GlassCard } from '../ui/GlassCard';
 
 interface SkillItem {
   number: string;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, HelpCircle } from 'lucide-react';
-import { FAQ_DATA, FaqItem } from '../../data/faq.ts';
+import { FAQ_DATA, FaqItem } from '../../data/faq';
 
 export const Faq: React.FC = () => {
   const [openId, setOpenId] = useState<string>('faq-1');

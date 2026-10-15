@@ -1,0 +1,6 @@
+{
+  "name": "JehoAI – Formation Motion Design Génératif",
+  "description": "Apprends à concevoir des animations et vidéos motion design d'élite avec l'IA. De simples prompts à des productions immersives sans logiciels complexes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
